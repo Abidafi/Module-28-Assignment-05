@@ -1,3 +1,5 @@
+//    Heart Icon Javascript Functionality 
+
 document.addEventListener('DOMContentLoaded', function() {
     const heartCountElement = document.querySelector('.nav-buttons button:first-child span');
     const heartButtons = document.querySelectorAll('.service-card button .fa-heart, .service-card button .fa-regular');
@@ -24,3 +26,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
